@@ -1,11 +1,13 @@
 import React from 'react';
+import LogRocket from 'logrocket';
 import {
   BrowserRouter as Router, Route, Switch, Link,
 } from 'react-router-dom';
 import PokemonList from '../container/PokemonList';
 import ShowPokemon from '../container/ShowPokemon';
-
 import '../styles/App.css';
+
+LogRocket.init('y02gmu/proyectodepruebag66');
 
 function App() {
   return (
